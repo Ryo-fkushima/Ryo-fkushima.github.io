@@ -7,16 +7,42 @@
     body{
     background:#000000;
     }
-    div{
+    
+    #menu{
     background:#008b8b;
+    color:white;
+    width:400px;
+    position:fixed;
+    _position:absolute;
+    top:30px;
+    left:0px;
+    
+    height:100%;
+    overflow:auto;
+    }
+    #main{
+    background:white;
+    color:black;
+    width:600px;
+    float:right;
     }
     </style>
 </head><!-- 裏設定エリアの終了 -->
  
 <body><!-- 画面に表示されるエリアの開始 -->
-<div>
-    <h1>Ryo Fukushima (Petrotectonics Research Group, Tohoku University)</h1>
-    <p>Research topics: low-temperature eclogite, garnet, omphacite (with antiphase domains), oscillatory zoning in garnet</p>
+
+<div id="menu">
+ <h1>Ryo Fukushima (Petrotectonics Research Group, Tohoku University)</h1>
+　<p>Research topics: low-temperature eclogite, garnet, omphacite (with antiphase domains), oscillatory zoning in garnet</p>
+  <ul>
+  	<li>Biography</li>
+  	<li>Publications</li>
+  	<li>Applications</li>
+  	<li>Notes</li>
+  </ul>
+</div>
+<div id="main">
+<p>contents</p>
 </div>
 </body><!-- 画面に表示されるエリアの終了 -->
 </html>
