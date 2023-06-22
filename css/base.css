@@ -61,7 +61,7 @@ footer{
 homefigure{
 
 	margin: 0;
-	background-image: url(../img/garamp1.jpg);
+	background-image: url(../img/alps.jpg);
 	color: #fff;
 	background-size: cover;
 	position: relative;
@@ -69,6 +69,56 @@ homefigure{
 	grid-column: 1 / 2;
 	
 }
+
+proffigure{
+
+	margin: 0;
+	background-image: url(../img/nikubuchi.jpg);
+	color: #fff;
+	background-size: cover;
+	position: relative;
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+	
+}
+
+rifigure{
+
+	margin: 0;
+	background-image: url(../img/jenner.jpg);
+	color: #fff;
+	background-size: cover;
+	position: relative;
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+	
+}
+
+projfigure{
+
+	margin: 0;
+	background-image: url(../img/groix.jpg);
+	color: #fff;
+	background-size: cover;
+	position: relative;
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+	
+}
+
+worksfigure{
+
+	margin: 0;
+	
+	color: #fff;
+	background-size: cover;
+	position: relative;
+	grid-row: 2 / 3;
+	grid-column: 1 / 2;
+	
+}
+
+
 
 
 
